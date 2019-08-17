@@ -12,6 +12,8 @@ namespace Laboratorio_1_OOP_201902
 
         //Constructor
         public Deck() : this(new List<CombatCard>())
+
+        public Deck(List<CombatCard> combatCard) : (combatCard, new List<SpecialCard>()) { }
         {
 
         }
