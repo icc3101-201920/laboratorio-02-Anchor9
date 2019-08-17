@@ -166,5 +166,42 @@ namespace Laboratorio_1_OOP_201902
         {
             throw new NotImplementedException();
         }
-    }
+
+        public void AddCombatCard(int playerId, CombatCard combatCard)
+        {
+
+        }
+        public AddSpecialCard(SpecialCard specialCard, int playerId, string buffType)
+        {
+            //El ayudante dijo que primero tengo que saber el tipo de carta 
+            string type = CombatCard.Type;
+            // Luego se agregan al jugador correspondiente [0] o [1]
+            // es  con un if y un add 
+        }
+        public void DestroyCombatCard(int playerId)
+        {
+            //Se eliminan de la mano (lista) con clear
+            
+            specialLongRangeCards[playerId].Clear();
+            specialRangeCards[playerId].Clear();
+            specialMeleeCards[playerId].Clear();
+
+        }
+    }   public void DestroySpecialCards()
+        {
+
+        }
+        public void GetMeleeAttackPoints()
+        {
+
+        }
+
+        public void GetLongRangeAttackPoints()
+        {
+
+        }
+
+
+
+
 }

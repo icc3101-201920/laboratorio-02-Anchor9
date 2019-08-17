@@ -10,7 +10,12 @@ namespace Laboratorio_1_OOP_201902
         private List<CombatCard> combatCards;
         private List<SpecialCard> SpecialCards;
 
-        public Deck()
+        //Constructor
+        public Deck() : this(new List<CombatCard>())
+        {
+
+        }
+
         {
 
         }
